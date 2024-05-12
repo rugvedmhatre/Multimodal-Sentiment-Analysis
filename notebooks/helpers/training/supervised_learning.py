@@ -342,14 +342,14 @@ def single_test(
         if auprc:
             print("AUPRC: "+str(AUPRC(pts)))
         if task == "classification":
-            print("acc: "+str(accuracy(true, pred)))
+            print(f"Accuracy: {accuracy(true, pred)*100:.4f}%")
             return {'Accuracy': accuracy(true, pred)}
         elif task == "multilabel":
             print(" f1_micro: "+str(f1_score(true, pred, average="micro")) +
                   " f1_macro: "+str(f1_score(true, pred, average="macro")))
             return {'micro': f1_score(true, pred, average="micro"), 'macro': f1_score(true, pred, average="macro")}
         elif task == "regression":
-            print("mse: "+str(testloss.item()))
+            print("MSE: "+str(testloss.item()))
             return {'MSE': testloss.item()}
         elif task == "posneg-classification":
             trueposneg = true
