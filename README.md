@@ -15,4 +15,5 @@ CMU-MOSEI pickle files can be downloaded from [here](https://drive.google.com/dr
 We are using `mosei_raw.pkl` for most of our models, and `mosei_senti_data.pkl` for our transformer models.
 
 ## Results
+<img width="220" alt="image" src="https://github.com/rugvedmhatre/Multimodal-Sentiment-Analysis/assets/147290095/1db753bc-8e54-43dd-9ffb-61487840a65d">
 
