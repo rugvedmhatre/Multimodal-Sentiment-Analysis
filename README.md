@@ -32,6 +32,7 @@ The [Datsets](https://github.com/rugvedmhatre/Multimodal-Sentiment-Analysis/blob
 | [MFM](https://github.com/rugvedmhatre/Multimodal-Sentiment-Analysis/blob/main/notebooks/MFM-MOSI.ipynb) | 66.47% | - |
 | [MCTN](https://github.com/rugvedmhatre/Multimodal-Sentiment-Analysis/blob/main/notebooks/MCTN-MOSI.ipynb) | 73.76% | - |
 | [MulT](https://github.com/rugvedmhatre/Multimodal-Sentiment-Analysis/blob/main/notebooks/MULT-MOSI.ipynb) | 75.07% | 71.91% |
+*Note: Some of the models were not included for CMU-MOSEI dataset as they were not yielding the expected results, this is a topic for further exploration*
 
 Each notebook contains the graphs for train and validation losses. Furthermore, each notebook also contains the validation accuracy at each epoch. *(They were not included in the report due to the page limit)*
 
